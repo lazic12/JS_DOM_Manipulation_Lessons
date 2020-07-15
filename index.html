@@ -1,0 +1,1600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <h1>I am alive</h1>
+    <!-- <p id="elem1">1</p>
+    <p id="elem2">2</p>
+    <p id="elem3">3</p> -->
+    <!-- Получите ссылку на первый абзац из дива с id, равным block -->
+    <!-- <div id="block">
+        <p>1</p>
+        <p>2</p>
+    </div> -->
+    <!-- Получите ссылку на первый абзац из дива с классом block. -->
+    <!-- <div class="block">
+        <p>1</p>
+        <p>2</p>
+    </div> -->
+    <!-- Получите ссылку на первый абзац с классом www. -->
+    <!-- <p class="www">text1</p>
+    <p class="www">text2</p> -->
+
+    <!-- Привязывание обработчиков событий к элементам -->
+
+    <!-- Сделайте так, чтобы по клику на первую кнопку на экран выводилось число 1, по клику на вторую - число 2, а по клику на третью - число 3. -->
+    <!-- <input id="button1" type="submit">
+    <input id="button2" type="submit">
+    <input id="button3" type="submit"> -->
+
+
+    <!-- Другие типы событий в JavaScript
+    -->
+
+    <!-- Дана кнопка. По двойному клику по ней выведите на экран какое-нибудь сообщение. -->
+    <!-- <input class="button1" type="submit"> -->
+
+    <!-- Дана кнопка. По наведению на нее выведите на экран какое-нибудь сообщение. -->
+    <!-- <input class="button1" type="submit"> -->
+
+    <!-- Дана кнопка. По уходу курсора с нее выведите на экран какое-нибудь сообщение. -->
+    <!-- <input id="button1" type="submit"> -->
+
+    <!-- несколько событий на элементе -->
+
+
+    <!-- Дана кнопка. По клику на нее выведите число 1, а по двойному клику - число 2.
+     -->
+
+    <!-- <input class="button1" type="submit"> -->
+
+
+    <!-- Именованные обработчики событий -->
+
+    <!-- Сделайте так, чтобы по клику на первую кнопку выполнилась функция func1, а по клику на вторую - функция func2. -->
+
+    <!-- <input id="button1" type="submit" value="button1">
+    <input id="button2" type="submit" value="button2"> -->
+
+
+    <!-- Привязывание одного обработчика ко многим элементам-->
+
+    <!-- Привяжите эту функцию ко всем 5-ти абзацам. -->
+
+    <!-- <p id="elem1">text</p>
+    <p id="elem2">text</p>
+    <p id="elem3">text</p>
+    <p id="elem4">text</p>
+    <p id="elem5">text</p> -->
+
+
+    <!-- Несколько обработчиков одного события -->
+
+    <!-- Привяжите все эти функции к нашему абзацу. -->
+
+    <!-- <p id="elem">text</p> -->
+
+    <!-- Анонимные обработчики -->
+
+    <!-- <input class='button1' type="button" value="Click me"> -->
+
+
+    <!-- Работа с текстом тега -->
+
+    <!-- Даны два абзаца, содержащие своим текстом какие-то числа, и кнопка. По нажатию на кнопку выведите на экран сумму хранящихся чисел. -->
+
+    <!-- <p class='par1'>2</p>
+    <p class='par2'>3</p>
+    <input class='button' type="button" value="Click to see result"> -->
+
+    <!-- Даны два абзаца и две кнопки. Пусть нажатие на первую кнопку выводит текст первого абзаца, а нажатие на вторую кнопку - текст второго абзаца. -->
+
+    <!-- <p class="par1">text1</p>
+    <p class="par2">text2</p>
+    <input class='button1' type="button" value="To see text1">
+    <input class='button2' type="button" value="To see text2"> -->
+
+    <!-- Запись -->
+
+    <!-- Дан абзац и две кнопки. По нажатию на первую кнопку запишите в абзац слово 'привет', а по нажатию на вторую кнопку - слово 'пока'. -->
+
+    <!-- <p class="par1">Some text</p>
+    <input class='button1' type="button" value="Hi">
+    <input class='button2' type="button" value="Bye"> -->
+
+    <!-- Даны 3 абзаца с текстом. По нажатию на первый абзац запишите в его текст число 1, по нажатию на второй абзац запишите в его текст число 2, а по нажатию на третий - запишите в его текст число 3. -->
+
+    <!-- <p class="elem1">text1</p>
+    <p class="elem2">text2</p>
+    <p class="elem3">text3</p> -->
+
+    <!-- Дан абзац и кнопка. В абзаце записано какое-то число. По нажатию на кнопку возведите значение абзаца в квадрат и запишите его обратно. -->
+
+    <!-- <p class='elem'>3</p>
+    <input class='button' type="button" value="Double"> -->
+
+    <!-- Дан абзац с числом и кнопка. По нажатию на кнопку прибавьте к значению абзаца единицу и запишите полученное число обратно. -->
+
+    <!-- <p class='elem'>3</p>
+    <input class='button' type="button" value="Add 1"> -->
+
+    <!-- Дан абзац с текстом и кнопка. По нажатию на кнопку запишите в конец текста абзаца восклицательный знак. -->
+
+    <!-- <p class='elem'>Text</p>
+    <input class='button' type="button" value="Add !"> -->
+
+    <!-- Модифицируйте предыдущую задачу так, чтобы восклицательный знак записывался не в конец текста, а в начало. -->
+
+    <!-- <p class='elem'>Text</p>
+    <input class='button' type="button" value="! Add "> -->
+
+    <!-- Запись тегов -->
+
+    <!-- Дан абзац и кнопка. По нажатию на кнопку запишите в абзац текст '<i>hello</i>'. -->
+
+    <!-- <p class="elem"></p>
+    <input class='button' type="button" value="Add some text"> -->
+
+    <!-- Дан абзац с текстом и кнопка. По нажатию на кнопку прочитайте текст абзаца, оберните этот текст в теги <b> и запишите новый текст обратно в абзац. -->
+
+    <!-- <p class="elem">Text</p>
+    <input class='button' type="button" value="Get big"> -->
+
+
+    <!-- Работа с атрибутами тегов через свойства элементов -->
+
+    <!-- Дана также кнопка. По нажатию на кнопку выведите на экран содержимое атрибута type указанного выше инпута. -->
+
+    <!-- <input id="elem" type="email">
+    <input id='button' type="button" value="Click"> -->
+
+    <!-- Дан следующий инпут:Дана также кнопка. По нажатию на кнопку выведите запишите в атрибут type значение submit. -->
+
+    <!-- <input id="elem" type="email">
+    <input id='button' type="button" value="Click"> -->
+
+    <!-- Пусть у вас есть ссылка в виде тега a, кнопка и абзац. По нажатию на кнопку выведите в абзац содержимое атрибута href ссылки. -->
+
+    <!-- <a class='link' href="http://smth.com">Link</a>
+    <input class='button' type="button" value="Click">
+    <p class='paragraph'>Some text</p> -->
+
+    <!-- Пусть у вас есть ссылка и кнопка. По нажатию на кнопку добавьте в конец текста ссылки содержимое ее атрибута href в круглых скобках. -->
+
+    <!-- <a class='link' href="http://smth.com">link</a>
+    <input class='button' type="button" value="Click"> -->
+
+    <!-- Пусть у вас есть картинка. Разместите ее на странице в помощью тега img. Пусть даны также кнопка и абзац. Сделайте так, чтобы по клику на кнопку в абзац записался путь к картинки из ее атрибута src. -->
+
+    <!-- <img class="picture" src="/img/photo.jpg" alt="">
+    <input class='button' type="button" value="Click">
+    <p class="paragraph">Some text</p> -->
+
+    <!-- Дана картинка в теге img и кнопка. По нажатию на кнопку в атрибут width запишите значение 300. -->
+
+    <!-- <img class='img' src="/img/photo.jpg" alt="">
+    <input class='button' type="button" value="click"> -->
+
+    <!-- Дана картинка в теге img и кнопка. Пусть в атрибуте width задана некоторая ширина. Сделайте кнопку, по нажатию на которую ширина картинки будет увеличиваться в 2 раза. -->
+
+    <!-- <img class="picture" src="/img/photo.jpg" alt="pic" width="150">
+    <input class='button' type="button" value="Click"> -->
+
+    <!-- Пусть у вас есть две картинки. Сделайте на странице тег img и две кнопки. По нажатию на первую кнопку запишите в атрибут src путь к первой картинке, а по нажатию на вторую - путь ко второй картинке. -->
+
+    <!-- <img src="" alt="" class="picture">
+    <input type="button" class="button1" value='click to see pic1'>
+    <input type="button" class="button2" value='click to see pic2'> -->
+
+
+    <!-- Работа с текстовыми полями -->
+
+    <!-- Сделайте кнопку, нажатие на которую будет выводить текущий текст инпута. -->
+
+    <!-- <input id="elem" value="text">
+    <input id='button' type="button" value="Click"> -->
+
+    <!-- Дан инпут и кнопка. По нажатию на кнопку запишите в инпут какой-нибудь текст. -->
+
+    <!-- <input class="elem" type="text" name="" id="">
+    <input type="button" value="Click" class="button"> -->
+
+    <!-- Дан инпут, абзац и кнопка. По нажатию на кнопку запишите в абзац текст из инпута. -->
+
+    <!-- <input class="elem" type="text" name="" id="" value='Hello'>
+    <p class="text">Some text</p>
+    <input type="button" value="Click" class="button"> -->
+
+    <!-- Даны два инпута и кнопка. В первый инпут пользователем вводится число. По нажатию на кнопку запишите во второй инпут квадрат введенного числа. -->
+
+    <!-- <input class='text1' type="text" name="" id="1">
+    <input class='text2' type="text" name="" id="2">
+    <input class="button" type="button" value="Click to double"> -->
+
+    <!-- Даны два инпута и кнопка. По нажатию на кнопку запишите в первый инпут значение второго инпута, а во второй инпут - значение первого. Ваш код должен работать универсально, для любых значений инпутов. -->
+
+    <!-- <input type="text" name="" id="" class="text1">
+    <input type="text" name="" id="" class="text2">
+    <input type="hidden" name="" id="" class="text3">
+    <input type="button" value="Click" class="button"> -->
+
+    <!-- Даны 5 инпутов, абзац и кнопка. В инпут вводятся числа. По нажатию на кнопку запишите среднее арифметическое введенных чисел в абзац. -->
+
+    <!-- <input type="number" name="" id="" class="elem1">
+    <input type="number" name="" id="" class="elem2">
+    <input type="number" name="" id="" class="elem3">
+    <input type="number" name="" id="" class="elem4">
+    <input type="number" name="" id="" class="elem5">
+    <p class="text">Result</p>
+    <input class='button' type="button" value="click"> -->
+
+
+    <!-- Фокус текстовых полей -->
+
+    <!-- Дан инпут. По получению фокуса запишите в него число 1, а по потери фокуса - число 2. -->
+
+    <!-- <input class='text' type="text" value=''> -->
+
+    <!-- Дан инпут. Пусть в него вводится число. По потери фокуса выведите на экран квадрат этого числа. -->
+
+    <!-- <input class='text' type="text"> -->
+
+    <!-- Дан инпут, в котором изначально есть какой-то текст. По получению фокуса инпутом очистите содержимое этого инпута. -->
+
+    <!-- <input class='text' type="text" value='some text'> -->
+
+
+    <!-- Исключения при работе с атрибутами -->
+
+    <!-- Дана также кнопка. По нажатию на кнопку прочитайте и выведите на экран значение атрибута class нашего дива. -->
+
+    <!-- <div id="elem" class="content no-gap"></div> -->
+
+    <!-- Дан див. Дана также кнопка. По нажатию на кнопку запишите в атрибут class нашего дива какой-нибудь класс -->
+
+    <!-- <div id="elem"></div> -->
+
+    <!-- Дан див с несколькими CSS классами, записанными через пробел. Дана также кнопка. По нажатию на кнопку получите массив CSS классов нашего дива. -->
+
+    <!-- <div id="elem" class="aaa bbb ccc"></div>
+    <input type="button" value="Click" class="button"> -->
+
+
+    <!-- Цепочки методов и свойств -->
+
+    <!-- Переделайте приведенный выше код так, чтобы вместо введения переменной image использовалась цепочка. -->
+
+    <!-- <img id="image" src="avatar.png"> -->
+
+    <!-- Преимущества и недостатки цепочек -->
+
+    <!-- <img id="image" src="avatar.png" width="300" height="500"> -->
+
+
+    <!-- Объект this -->
+
+    <!-- Дан инпут. По получению фокуса этим инпутом запишите в него число 1, а по потери фокуса - число 2. Для обращения у инпуту внутри функции-обработчика используйте объект this. -->
+
+    <!-- <input type="text" name="" id="" class="text"> -->
+
+    <!-- Дана кнопка, значением которой служит число 1. Сделайте так, чтобы по клику на эту кнопку ее значение каждый раз увеличивалось на единицу. -->
+
+    <!-- <input type="button" value="1" class="button"> -->
+
+    <!-- Особое преимущество this -->
+
+    <!-- Даны 5 абзацев с какими-то текстами. По клику на любой абзац запишите в конец его текста восклицательный знак. -->
+
+    <!-- <p class="text1">Hello</p>
+    <p class="text2">Hi</p>
+    <p class="text3">Hey</p>
+    <p class="text4">Bye</p>
+    <p class="text5">No</p> -->
+
+    <!-- Даны 3 инпута, в которых записаны какие-то числа. По потери фокуса в любом из инпутов возведите стоящее в нем число в квадрат.-->
+
+    <!-- <input type="text" name="" id="" class="text1" value='1'>
+    <input type="text" name="" id="" class="text2" value='2'>
+    <input type="text" name="" id="" class="text3" value='3'> -->
+
+
+    <!-- Получение группы элементов -->
+
+    <!-- Даны абзацы и кнопка. По нажатию на кнопку найдите все абзацы, переберите из циклом и установите текст каждого абзаца в значение text. -->
+
+    <!-- <p class="text"></p>
+    <p class="text"></p>
+    <p class="text"></p>
+    <p class="text"></p>
+    <input class='button' type="button" value="Click"> -->
+
+    <!-- Даны абзацы с текстом и кнопка. По нажатию на кнопку запишите в конец текста каждого абзаца его порядковый номер. -->
+
+    <!-- <p class="text">text</p>
+    <p class="text">text</p>
+    <p class="text">text</p>
+    <p class="text">text</p>
+    <input class='button' type="button" value="Click"> -->
+
+    <!-- Даны инпуты с числами, абзац и кнопка. По нажатию на кнопку найдите сумму чисел из инпутов и запишите эту сумму в текст абзаца. -->
+
+    <!-- <input class="text" type='text'>
+    <input class="text" type='text'>
+    <input class="text" type='text'>
+    <input class="text" type='text'>
+    <input class='button' type="button" value="Click">
+    <p class="par"></p> -->
+
+
+    <!-- Добавление обработчиков событий в циклеДобавление обработчиков событий в цикле -->
+
+    <!-- Даны также инпуты. Сделайте так, чтобы по потери фокуса в любом из наших инпутов выполнялась приведенная выше функция. -->
+
+    <!-- <input type="text" name="" id="">
+    <input type="text" name="" id="">
+    <input type="text" name="" id=""> -->
+
+    <!-- Даны абзацы с числами. Сделайте так, чтобы по клику на любой абзац его число в нем возводилось в квадрат. -->
+
+    <!-- <p>2</p>
+    <p>3</p>
+    <p>4</p> -->
+
+    <!-- Анонимные функции как обработчики событий -->
+
+    <!-- <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div> -->
+
+
+    <!-- Отвязывание событий через removeEventListener -->
+
+    <!-- Дана ссылка. По нажатию на эту ссылку добавьте в конец ее текста содержимое ее атрибута href в круглых скобках. Сделайте так, чтобы это добавление происходило лишь по первому нажатию. -->
+
+    <!-- <a href="http://smth.com">Link</a> -->
+    <!-- 
+    Дана кнопка, значением которой служит число 1. Сделайте так, чтобы по клику на эту кнопку ее значение каждый раз увеличивалось на единицу. После того, как значение кнопки достигнет 10 - отвяжите обработчик события, чтобы кнопка больше не реагировала на нажатие. -->
+
+    <!-- <input type="button" value="1" class="button"> -->
+
+
+    <!-- Отвязывание обработчиков событий в цикле -->
+
+    <!-- Даны абзацы. По нажатию на любой из абзацев добавьте ему в конец восклицательный знак. Сделайте так, чтобы это добавление происходило лишь по первому нажатию. -->
+
+    <!-- <p>text</p>
+    <p>text</p>
+    <p>text</p> -->
+
+
+    <!-- Работа с атрибутами через методы -->
+
+    <!-- Метод getAttribute -->
+
+    <!-- Дан элемент:
+
+<input id="elem" value="text">
+Получите значение его атрибута value. -->
+
+    <!-- Дан элемент.Получите значение его атрибута class. -->
+    <!-- 
+    <input id="elem" class="www zzz"> -->
+
+    <!-- Метод setAttribute -->
+
+    <!-- Установите его атрибут value в значение 'text' -->
+
+    <!-- <input id="elem"> -->
+
+    <!-- Установите ему атрибут class в значение 'valid'. -->
+
+    <!-- <input id="elem"> -->
+
+
+    <!-- Метод removeAttribute -->
+
+    <!-- Дан элемент.Удалите у него атрибут value. -->
+
+    <!-- <input id="elem" value="text"> -->
+
+
+    <!-- Метод hasAttribute -->
+
+    <!-- Дан элемент.Проверьте наличие у него атрибута value. -->
+
+    <!-- <input id="elem" value="text"> -->
+
+
+    <!-- Разница между способами получения атрибутов -->
+
+    <!-- Дан инпут с каким-то начальным значением. Дана также кнопка. По нажатию на кнопку определите, было ли изменено пользователем начальное значение инпута.-->
+
+    <!-- <input class="text" type="text" name="" id="" value='text'>
+    <input class='button' type="button" value="Click"> -->
+
+    <!-- Изменение атрибута -->
+
+    <!-- Дан инпут с каким-то начальным значением. Пусть пользователь меняет это значение. Сделайте рядом с инпутом кнопку, по нажатию на которую value инпута вернется в изначальное значение. -->
+
+    <!-- <input type="text" name="" id="" class="text" value='Some text'>
+    <input type="button" value="Click" class="button"> -->
+
+    <!-- Манипулирование CSS классами в -->
+
+    <!-- Массив классов -->
+
+    <!-- Свойство classList -->
+
+    <!-- Узнайте количество его классов. -->
+    <!-- <p id="elem" class="www ggg zzz"></p> -->
+
+    <!-- Дан элемент.Переберите в цикле его классы. -->
+
+    <!-- <p id="elem" class="www ggg zzz"></p> -->
+
+    <!-- Метод add объекта classList -->
+
+    <!-- Дан элемент.Добавьте ему класс xxx. -->
+
+    <!-- <p id="elem" class="www ggg zzz"></p> -->
+
+    <!-- Удаление классов -->
+
+    <!-- Метод remove объекта classList -->
+
+    <!-- <p id="elem" class="www ggg zzz"></p> -->
+
+    <!-- Проверка классов -->
+
+    <!-- Метод contains объекта classList -->
+
+    <!-- Дан элемент.Проверьте наличие у него класса ggg. -->
+
+    <!-- <p id="elem" class="www ggg zzz"></p> -->
+
+
+    <!-- Чередование классов.Метод toggle объекта classList-->
+
+    <!-- Дан элемент. Добавьте ему класс www, если его нет и удалите - если есть. -->
+
+    <!-- <p id="elem" class="www ggg zzz"></p> -->
+
+
+    <!-- Стилизация элементов через атрибут style -->
+
+    <!-- Дан див и кнопка. По клику на кнопку добавьте диву ширину, высоту и границу. -->
+
+    <!-- <div class="test" style="background-color: blue;"></div>
+    <input type="button" value="Click" class="button"> -->
+
+    <!-- Свойства с дефисом -->
+
+    <!-- Дан див с текстом и кнопка. По клику на кнопку установите диву размер шрифта в 20px, а также верхнюю границу и фон. -->
+    <!-- 
+    <div class="elem">some text</div>
+    <input type="button" value="Click" class="button"> -->
+
+
+    <!-- Исключение -->
+
+    <!-- Дан список ul и кнопка. По клику на кнопку добавьте тегам li свойство float в значении left. -->
+
+    <!-- <ul class='list'>
+        <li class='el'>One
+        </li>
+        <li class='el'>Two</li>
+    </ul>
+
+    <input class='button' type="button" value="Click"> -->
+
+
+    <!-- Стилизация с помощью CSS классов -->
+
+    <!-- Дан абзац. Даны кнопки 'перечеркнуть', 'сделать жирным', 'сделать красным'. Пусть по нажатию на каждую кнопку заданное действие происходит с абзацем (становится красным, например). -->
+
+    <!-- <p class="text">Some text</p>
+
+    <input id='button1' type="button" value="перечеркнуть">
+    <input id='button2' type="button" value="сделать жирным">
+    <input id='button3' type="button" value="сделать красным"> -->
+
+    <!-- Дополнительное преимущество -->
+
+    <!-- Модифицируйте предыдущую задачу так, чтобы повторное нажатие на кнопку отменяло действие этой кнопки. -->
+
+
+    <!-- <p class="text">Some text</p>
+
+    <input id='button1' type="button" value="перечеркнуть">
+    <input id='button2' type="button" value="сделать жирным">
+    <input id='button3' type="button" value="сделать красным"> -->
+
+
+    <!-- Отработка изученного материала на работу с DOM -->
+
+    <!-- Дан инпут и абзац. По потери фокуса в инпуте запишите значение инпута в конец текста абзаца. -->
+
+    <!-- <input type="text" name="" id="" class="elem">
+    <p class="parag">Text</p>
+     -->
+
+    <!-- Дано несколько инпутов, абзац и кнопка. По нажатию на кнопку получите числа, стоящие в этих инпутах и запишите их сумму в абзац. -->
+
+    <!-- <input type="text" name="" id="el1">
+    <input type="text" name="" id="el2">
+    <input type="text" name="" id="el3">
+    <p class="parag"></p>
+    <input type="button" value="Get sum" class="button"> -->
+
+    <!-- Дан инпут. В него вводится число. По потери фокуса найдите сумму цифр этого числа. -->
+
+    <!-- <input type="text" name="" id="" class="elem" value='Введите двухначное число'> -->
+
+    <!-- Дан инпут. В него вводятся числа через запятую. По потери фокуса найдите среднее арифметическое этих чисел (сумма делить на количество). -->
+
+    <!-- <input type="text" name="" id="" class="elem" value=''> -->
+
+    <!-- Даны 4 инпута. В первый инпут вводится ФИО через пробел. По потери фокуса запишите фамилию, имя и отчество в остальные 3 инпута. -->
+
+    <!-- <input type="text" name="" id="first"><br><br>
+    <input type="text" name="" id="second"><br><br>
+    <input type="text" name="" id="third"><br><br>
+    <input type="text" name="" id="fourth"><br><br> -->
+
+    <!-- Дан инпут. В него вводится ФИО через пробел. ФИО вводится с маленькой буквы. Сделайте так, чтобы по потери фокуса инпутом, введенные фамилия, имя и отчество автоматически стали записанными с большой буквы (в этом же инпуте). -->
+    <!-- 
+    <input type="text" name="" id="" class="text" style="width: 250px; height: 20px;"> -->
+
+    <!-- Дан инпут. В него вводится текст. По потери фокуса узнайте количество слов в этом тексте. -->
+
+    <!-- <input type="text" name="" id="" class="text" style="width: 250px; height: 20px;"> -->
+
+    <!-- Дан инпут. В него вводится дата в формате 31.12.2016. По потери фокуса в этом же инпуте поставьте эту дату в формате 2016-12-31. -->
+
+    <!-- <input type="text" name="" id="" class="text"> -->
+
+    <!-- Дан инпут. В него вводится слово. По нажатию на кнопку проверьте то, что это слово читается с начала и с конца одинаково (например, мадам). -->
+
+    <!-- <input type="text" name="" id="" class="text">
+    <input type="button" value="Click" class="button"> -->
+
+    <!-- Дан инпут. В него вводится число. Проверьте по потери фокуса, что это число содержит внутри себя цифру 3. -->
+
+    <!-- <input type="text" name="" id="" class="elem"> -->
+
+    <!-- Даны несколько абзацев и кнопка. По нажатию на кнопку запишите в конец каждого абзаца его порядковый номер. -->
+
+    <!-- <p class="text"></p>
+    <p class="text"></p>
+    <p class="text"></p>
+    <input class='button' type="button" value="Click"> -->
+
+    <!-- Даны ссылки. Добавьте в конец каждой ссылки ее href в круглых скобках. -->
+
+    <!-- <a class='link' href="http://website.com">Link1</a><br>
+    <a class='link' href="http://website.com">Link2</a><br>
+    <a class='link' href="http://si.com">Link3</a><br>
+    <input class='button' type="button" value="Clicl"> -->
+
+    <!-- Даны ссылки. Если ссылка начинается с http://, то добавьте ей в конец стрелку → (делается так: &rarr;). -->
+
+    <!-- <a class='link' href="http://website.com">Link1</a><br>
+    <a class='link' href="http://website.com">Link2</a><br>
+    <a class='link' href="http://si.com">Link3</a><br>
+    <input class='button' type="button" value="Clicl"> -->
+
+    <!-- Даны несколько абзацев с числами. По нажатию на любой абзац запишите в него квадрат числа, которое в нем находится. -->
+
+    <!-- <p class="text">1</p>
+    <p class="text">2</p>
+    <p class="text">3</p> -->
+
+    <!-- Дан инпут. В него вводится дата в формате 31.12.2016. По потери фокуса узнайте день недели (словом), который приходится на эту дату. -->
+
+    <!-- <input type="text" name="" id="" class="text"> -->
+
+    <!-- Дан инпут. Реализуйте кнопочки +1, -1, которые будут увеличивать или уменьшать на 1 значение инпута. Сделайте так, чтобы это значение не могло стать меньше нуля. -->
+
+    <!-- <input type="text" name="" id="" class="text">
+    <input class='button1' type="button" value="-1">
+    <input class='button2' type="button" value="+1"> -->
+
+    <!-- Дан инпут. Даны абзацы. Пусть в этот инпут записывается суммарное количество нажатий по этим абзацам. -->
+
+    <!-- <input type="text" name="" id="sum" class="elem">
+    <p class='text'>Click</p>
+    <p class='text'>on</p>
+    <p class='text'>this</p> -->
+
+    <!-- В инпут через запятую вводятся страны. По нажатию на кнопку сделайте так, чтобы эти страны записались в ul под инпутом (каждая страна отдельный li). -->
+
+    <!-- <input type="text" name="" id="country"><br>
+    <input type="button" value="Click" id='button'>
+    <ul id='count'>
+
+    </ul> -->
+
+    <!-- В инпут вводится страна и нажимается Enter. По нажатию на Enter сделайте так, чтобы введенные страны записывались в абзац под инпутом через запятую. То есть по каждому нажатию Enter в абзац будут добавляться все новые и новые страны. -->
+
+    <!-- <input type="text" name="" id="">
+    <p></p> -->
+
+    <!-- На странице есть дивы. В них есть текст. Обойдите все дивы и обрежьте тот текст, который в них стоит так, чтобы он стал длиной 10 символов. И добавьте троеточие в конец обрезанного текста -->
+
+    <!-- <div>texttexttextetetetetteetetet</div>
+    <div>texttexttextetetetetteetetet</div>
+    <div>texttexttextetetetetteetetet</div>
+    <button class="button">Cut</button> -->
+
+    <!-- Дан массив с числами. Выведите каждый элемент этого массива в своем инпуте. Сделайте так, чтобы под всеми инпутами вывелась сумма элементов нашего массива. -->
+
+    <!-- Дан инпут. В него вводится число. По потери фокуса проверьте, что в нем лежит число от 1 до 100. Если это так - покрасьте инпут в зеленый цвет, а если не так - в красный. -->
+
+    <!-- <input class="number" type="text" name="" id=""> -->
+
+    <!-- Дан инпут и кнопка. По нажатию на кнопку сгенерируйте случайную строку из 8-ми символов и запишите в инпут. -->
+
+    <!-- <input type="text" name="" id="" class="text">
+    <input type="button" value="Random String" class='submit'> -->
+
+    <!-- Дан инпут и кнопка. Пользователь вводит в инпут какую-то строку. По нажатию на кнопку перемешайте введенные символы случайным образом и запишите ее обратно в инпут. -->
+
+    <!-- <input type="text" name="" id="" class="text">
+    <input type="button" value="Random String" class='submit'> -->
+
+    <!-- Дана ссылка. Дан чекбокс. По нажатию на ссылку меняйте состояние чекбокса с отмеченного на неотмеченное и наоборот. -->
+
+    <!-- <a class='link' href="#">Click</a>
+    <input class='box' type="checkbox" name="" id=""> -->
+
+    <!-- Дан инпут. В него вводится температура в градусах Фарингейта. Сделайте так, чтобы автоматически по мере ввода в абзац под инпутом эта температура выводилась в градусах Цельсия. -->
+
+    <!-- <input type="text" id="elem">
+    <p id="res"></p> -->
+
+    <!-- Дан инпут, кнопка и абзац. В инпут вводится число. По нажатию на кнопку выведите в абзац факториал этого числа. -->
+
+    <!-- <input type="text" name="" id="" class="text">
+    <input type="button" value="Factorial" class="button">
+    <p class="result"></p> -->
+
+
+
+    <!-- Нахождение элементов по родственным связям -->
+    <!-- Потомки элементов -->
+
+    <!-- firstElementChild lastElementChild children -->
+
+    <!-- Дан элемент #elem: -->
+
+    <!-- <ul id="elem">
+	<li>text</li>
+	<li>text</li>
+	<li>text</li>
+	<li>text</li>
+	<li>text</li>
+</ul>
+Найдите первого потомка этого элемента и сделайте его текст красного цвета. -->
+
+    <!-- <ul id="elem">
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+    </ul> -->
+
+    <!-- Дан элемент #elem:
+
+<ul id="elem">
+	<li>text</li>
+	<li>text</li>
+	<li>text</li>
+	<li>text</li>
+	<li>text</li>
+</ul>
+Найдите последнего потомка этого элемента и сделайте его текст красного цвета. -->
+
+    <!-- <ul id="elem">
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+    </ul> -->
+
+    <!-- Дан элемент #elem:
+
+<ul id="elem">
+	<li>text</li>
+	<li>text</li>
+	<li>text</li>
+	<li>text</li>
+	<li>text</li>
+</ul>
+Найдите всех потомков этого элемента и добавьте им в конец текст '!'. -->
+
+    <!-- <ul id="elem">
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+    </ul> -->
+
+
+    <!-- Родители элементов     -->
+
+    <!-- parentElement -->
+
+    <!-- Дан элемент #elem:
+
+<div>
+	<ul>
+		<li>text</li>
+		<li>text</li>
+		<li id="elem">text</li>
+		<li>text</li>
+		<li>text</li>
+	</ul>
+</div>
+Найдите его родителя и задайте ему красную границу. -->
+
+    <!-- <div>
+        <ul>
+            <li>text</li>
+            <li>text</li>
+            <li id="elem">text</li>
+            <li>text</li>
+            <li>text</li>
+        </ul>
+    </div> -->
+
+    <!-- Поиск всех родителей -->
+    <!-- closest -->
+
+
+    <!-- Дан элемент:
+
+<header>
+	<div>
+		<p>
+			<span id="elem"></span>
+		</p>
+	</div>
+</header>
+Найдите ближайшего родителя этого элемента, являющегося тегом div. -->
+
+    <!-- <header>
+        <div>
+            <p>
+                <span id="elem"></span>
+            </p>
+        </div>
+    </header> -->
+
+    <!-- Дан элемент:
+
+    <header>
+        <div class="www" id ='parent2'>
+            <p class="www" id ='parent1'>
+                <span id="elem"></span>
+            </p>
+        </div>
+    </header>
+    Найдите ближайшего родителя этого элемента, являющегося элементом с классом www. -->
+
+    <!-- <header>
+        <div class="www" id='parent2'>
+            <p class="www" id='parent1'>
+                <span id="elem"></span>
+            </p>
+        </div>
+    </header> -->
+
+    <!-- Поиск соседей -->
+    <!-- previousElementSibling nextElementSibling -->
+
+    <!-- Дан элемент #elem:
+
+<ul>
+	<li>text</li>
+	<li>text</li>
+	<li id="elem">text</li>
+	<li>text</li>
+	<li>text</li>
+</ul>
+Найдите его соседа сверху и добавьте ему в конец текст '!'. -->
+
+
+    <!-- <ul>
+        <li>text</li>
+        <li>text</li>
+        <li id="elem">text</li>
+        <li>text</li>
+        <li>text</li>
+    </ul> -->
+
+    <!-- Найдите его соседа снизу и добавьте ему в конец текст '!'. -->
+
+    <!-- <ul>
+        <li>text</li>
+        <li>text</li>
+        <li id="elem">text</li>
+        <li>text</li>
+        <li>text</li>
+    </ul> -->
+
+    <!-- Дан элемент #elem:
+
+    <ul>
+        <li>text</li>
+        <li>text</li>
+        <li id="elem">text</li>
+        <li>text</li>
+        <li>text</li>
+    </ul>
+    Найдите его соседа снизу его соседа снизу (следующий элемент за соседним) и добавьте ему в конец текст '!'. -->
+
+    <!-- <ul>
+        <li>text</li>
+        <li>text</li>
+        <li id="elem">text</li>
+        <li>text</li>
+        <li>text</li>
+    </ul> -->
+
+    <!-- Дан элемент #elem:
+
+<ul>
+	<li>text1</li>
+	<li>text2</li>
+	<li id="elem">text3</li>
+	<li>text4</li>
+	<li>text5</li>
+</ul>
+Поменяйте местами текст его соседа сверху и текст его соседа снизу. -->
+
+    <!-- <ul>
+        <li>text1</li>
+        <li>text2</li>
+        <li id="elem">text3</li>
+        <li>text4</li>
+        <li>text5</li>
+    </ul> -->
+
+
+    <!-- Другие полезные методы для поиска элементов -->
+    <!-- getElementById -->
+
+    <!-- Дан элемент #elem:
+
+<div id="elem"></div>
+Получите этот элемент с помощью метода getElementById и установите ему какой-нибудь текст. -->
+
+    <!-- <div id="elem"></div> -->
+
+
+    <!-- Получение по имени тега -->
+    <!-- getElementsByTagName -->
+
+    <!-- Дан список:
+
+    <ul>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+    </ul>
+    Получите все теги li по имени тега и сделайте их текст красного цвета. -->
+
+    <!-- <ul>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+    </ul> -->
+
+    <!-- Получение по имени класса -->
+    <!-- getElementsByClassName -->
+
+    <!-- Даны элементы:
+
+<p class="www">elem 1</p>
+<p class="www">elem 2</p>
+<p class="www">elem 3</p>
+Получите эти элементы по имени класса и сделайте их текст красного цвета. -->
+
+    <!-- <p class="www">elem 1</p>
+    <p class="www">elem 2</p>
+    <p class="www">elem 3</p> -->
+
+
+    <!-- Поиск элементов внутри другого элемента -->
+
+    <!-- Дан элемент #parent:
+
+<div id="parent">
+	<p class="www">text</p>
+	<p class="www">text</p>
+	<p class="www">text</p>
+	<p class="ggg">text</p>
+	<p class="ggg">text</p>
+	<p class="ggg">text</p>
+</div>
+let parent = document.querySelector('#parent');
+Найдите внутри родителя элементы с классом www и запишите их в переменную elems1. Затем найдите внутри родителя элементы с классом ggg и запишите их в переменную elems2. -->
+
+    <!-- <div id="parent">
+        <p class="www">text</p>
+        <p class="www">text</p>
+        <p class="www">text</p>
+        <p class="ggg">text</p>
+        <p class="ggg">text</p>
+        <p class="ggg">text</p>
+    </div> -->
+
+
+    <!-- Работа с текстареа в JavaScript -->
+
+    <!-- Дан текстареа и абзац. По потери фокуса в текстареа запишите его текст в абзац. -->
+
+    <!-- <textarea name="" id="elem" cols="30" rows="5">Text</textarea>
+    <p class='text'></p> -->
+
+
+    <!-- Атрибут disabled в JavaScript -->
+
+    <!-- Дан инпут и кнопка. По нажатию на кнопку заблокируйте инпут. -->
+
+    <!-- <input type="text" name="" id="" class="elem">
+    <input type="button" value="Click" class="button"> -->
+
+    <!-- Дан инпут и две кнопки. Пусть нажатие на первую кнопку блокирует инпут, а нажатие на вторую - отблокирует. -->
+
+    <!-- <input type="text" name="" id="" class="text">
+    <input type="button" value="Block" class='block'>
+    <input type="button" value="Unblock" class='unblock'> -->
+
+    <!-- Дан инпут и кнопка. По нажатию на кнопку узнайте, заблокирован инпут или нет. -->
+
+    <!-- <input type="text" name="" id="text" disabled>
+    <input type="button" value="Click to check" class='button'>
+    <p class='el'></p> -->
+
+
+    <!-- Работа с чекбоксами в JavaScript -->
+
+    <!-- Дан чекбокс и две кнопки. По нажатию на первую кнопку установите чекбокс в отмеченное состояние, а по нажатию на вторую - в неотмеченное. -->
+
+    <!-- <input type="checkbox" name="" id="" class="elem">
+    <input class='button1' type="button" value="Click to check">
+    <input class='button2' type="button" value="Click to uncheck"> -->
+
+    <!-- Дан чекбокс, кнопка и абзац. По нажатию на кнопку, если чекбокс отмечен, выведите в абзац слово 'привет', а если чекбокс не отмечен, то слово 'пока'. -->
+
+    <!-- <input type="checkbox" name="" id="" class="elem">
+    <input type="button" value="Click" class="button">
+    <p class="text"></p> -->
+
+    <!-- <input id="elem" disabled>
+    <input id="button" type="submit"> -->
+
+
+    <!-- Чередование атрибутов без значений -->
+
+    <!-- Дан чекбокс и кнопка. Сделайте так, чтобы каждый клик по кнопке приводил к смене состояния чекбокса. -->
+
+    <!-- <input type="checkbox" name="" id="checkbox">
+    <input type="button" value="Click" class="button"> -->
+
+
+    <!-- Работа с радиокнопками в JavaScript -->
+
+    <!-- Даны 3 радиокнопки, абзац и кнопка. По клику на кнопку выведите в абзац value отмеченной радиокнопки. -->
+
+    <!-- <input type="radio" name="elem" id="" value='1'>
+    <input type="radio" name="elem" id="" value='2'>
+    <input type="radio" name="elem" id="" value='3'>
+    <p class="text"></p>
+    <input type="button" class="button" value='click'> -->
+
+
+    <!-- Событие change в JavaScript -->
+
+    <!-- Дан инпут и абзац. По изменению инпута выведите его текст в абзац. -->
+
+    <!-- <input type="text" name="" id="" class="text">
+    <p class="result"></p> -->
+
+    <!-- Дан чекбокс. По изменению чебокса выведите на экран его новое состояние. -->
+
+    <!-- <input type="checkbox" name="" id="" class="elem"> -->
+
+    <!-- Дан инпут. По его изменению проверьте, количество символов в нем меньше 5-ти или нет. Если меньше - покрасьте границу инпута в зеленый цвет, а если больше - в красный. -->
+
+    <!-- <input type="text" name="" id="" class="text"> -->
+
+
+    <!-- Событие input в JavaScript -->
+
+    <!-- Дан инпут. Пусть в него вводится текст. Как только длина текста достигнет 5-ти, выведите на экран сообщение об этом. -->
+
+    <!-- <input type="text" name="" id="" class="text"> -->
+
+    <!-- Дан инпут. Пусть в него разрешено ввести 5 символов. Дан также абзац. По мере ввода символов в инпут пишите, сколько еще символов можно ввести. Когда количество символов превысит 5-ти, то в абзац выводите то, на сколько символов превышена длина текста. -->
+
+    <!-- <input type="text" name="" id="" class="elem">
+    <p class="text"></p> -->
+
+
+    <!-- Методы focus и blur в JavaScript -->
+
+    <!-- Даны два инпута. Сделайте так, чтобы после ввода двух символов фокус ввода переходил ко второму инпуту, а после ввода двух символов в этот инпут - фокус из него убирался. -->
+
+    <!-- <input type="text" name="" id="" class="elem1">
+    <input type="text" name="" id="" class="elem2"> -->
+
+
+    <!-- Работа с выпадающими списками -->
+
+    <!-- Дан селект, абзац и кнопка. По клику на кнопку выведите текст выбранного пункта списка в абзац. -->
+
+    <!-- <select name="" id="select">
+        <option>One</option>
+        <option selected>Two</option>
+        <option>three</option>
+    </select>
+
+    <p class="text"></p>
+    <input type="button" value="Click" class="button"> -->
+
+    <!-- Сделайте выпадающий список годов от 2020 до 2030. При выборе какого-нибудь пункта списка выведите сообщение о том, високосный этот год или нет. -->
+
+    <!-- <select name="" id="select">
+        <option>2020</option>
+        <option>2021</option>
+        <option>2022</option>
+        <option>2023</option>
+        <option>2024</option>
+        <option>2025</option>
+        <option>2026</option>
+        <option>2027</option>
+        <option>2028</option>
+        <option>2029</option>
+        <option>2030</option>
+    </select> -->
+
+    <!-- Атрибут value -->
+    <!-- Сделайте выпадающий список с названиями дней недели. В качестве атрибутов value пунктов списка добавьте номера дней недели от 1 до 7. По изменению списка выведите на экран сообщение о том, выбран выходной день или рабочий. -->
+
+    <!-- <select name="" id="select">
+        <option value="1">Mon</option>
+        <option value="2">Tue</option>
+        <option value="3">Wed</option>
+        <option value="4">Thu</option>
+        <option value="5">Fri</option>
+        <option value="6">Sat</option>
+        <option value="7">Sun</option>
+    </select> -->
+
+
+    <!-- Изменение выбранного пункта списка на JavaScript -->
+
+    <!-- Сделайте выпадающий список с названиями месяцев. Сделайте так, чтобы по JavaScript по умолчанию выбирал в этом списке текущий месяц. -->
+
+    <!-- <select name="" id="select">
+        <option value="1">January</option>
+        <option value="2">February</option>
+        <option value="3">March</option>
+        <option value="4">April</option>
+        <option value="5">May</option>
+        <option value="6">June</option>
+        <option value="7">July</option>
+        <option value="8">August</option>
+        <option value="9">September</option>
+        <option value="10">Octorber</option>
+        <option value="11">November</option>
+        <option value="12">December</option>
+    </select> -->
+
+
+    <!-- Номер выбранного пункта выпадающего списка -->
+
+    <!-- Дан инпут и селект. В инпут вводится какое-то число. По потери фокуса сделайте выделенным пункт списка, номер которого равен значению из инпута. -->
+
+    <!-- <input type="text" name="" id="" class="elem">
+    <select name="" id="select">
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+    </select> -->
+
+    <!-- Сделайте выпадающий список с названиями дней недели. Сделайте так, чтобы по JavaScript по умолчанию выбирал в этом списке текущий день. -->
+
+    <!-- <select name="" id="elem">
+        <option value="1">Monday</option>
+        <option value="2">Tuesday</option>
+        <option value="3">Wednesday</option>
+        <option value="4">Thursday</option>
+        <option value="5">Friday</option>
+        <option value="6">Saturday</option>
+        <option value="7">Sunday</option>
+    </select> -->
+
+
+    <!-- Получение пунктов выпадающего списка -->
+
+    <!-- Переберите все пункты списка циклом и в конец текста каждого пункта добавьте значение его атрибута value. -->
+
+    <!-- <select name="" id="select">
+        <option value="one">One</option>
+        <option value="two">Two</option>
+        <option value="three">Three</option>
+    </select> -->
+
+
+    <!-- Работа с пунктами выпадающего списка на JavaScript -->
+
+    <!-- Переберите пункты списка циклом и для выбранного пункта в конец текста добавьте восклицательный знак, а для невыбранных пунктов - вопросительный. -->
+
+    <!-- <select name="" id="select">
+        <option value="1" selected>Text</option>
+        <option value="2">Some text</option>
+        <option value="3">other text</option>
+    </select> -->
+
+    <!-- Выбор пункта списка -->
+
+    <!-- Дан выпадающий список и кнопка. По клику на кнопку сделайте отмеченным последний пункт списка. -->
+
+    <!-- <select name="" id="select">
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+    </select> -->
+
+    <!-- Получение выбранного оптиона -->
+
+    <!-- Дан селект и кнопка. По нажатию на кнопку выведите на экран текст отмеченного пункта списка. -->
+    <!-- 
+    <select name="" id="select">
+        <option value="1" selected>One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+    </select>
+
+    <input type="submit" value="Click" class="button"> -->
+
+    <!-- Дан селект и кнопка. По нажатию на кнопку добавьте в конец текста выбранного пункта восклицательный знак. -->
+
+
+    <!-- <select name="" id="select">
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+    </select>
+
+    <input type="submit" value="Click" class="button"> -->
+
+
+    <!-- Пользовательские атрибуты в JavaScript -->
+
+    <!-- Дан следующий код:
+
+<div id="elem" data-text="str">text</div>
+Сделайте так, чтобы по клику на див в конец его текста добавилось содержимое его атрибута data-text. -->
+
+    <!-- <div id="elem" data-text="str">text</div> -->
+
+    <!-- Даны дивы, содержащие в атрибуте data-num свой порядковый номер:
+
+<div data-num="1">text</div>
+<div data-num="2">text</div>
+<div data-num="3">text</div>
+<div data-num="4">text</div>
+<div data-num="5">text</div>
+Сделайте так, чтобы по клику на любой из дивов ему в конец записывался его порядковый номер. -->
+
+    <!-- <div data-num="1">text</div>
+    <div data-num="2">text</div>
+    <div data-num="3">text</div>
+    <div data-num="4">text</div>
+    <div data-num="5">text</div> -->
+
+    <!-- Дана кнопка. Сделайте так, чтобы эта кнопка считала количество кликов по ней, записывая их в какой-нибудь пользовательский атрибут. Пусть по двойному клику на эту кнопку на экран выводится, сколько кликов по этой кнопке было сделано. -->
+
+    <!-- <input type="submit" value="Click" data-num='' class="button"> -->
+
+    <!-- Дан инпут:
+
+<input id="elem" data-length="5">
+В этом инпуте в атрибуте data-length содержится количество символов, которое нужно ввести в инпут. Сделайте так, чтобы по потери фокуса, если количество введенных символов не совпадает с заданным, выводилось сообщение об этом.VAZHNO -->
+
+    <!-- <input id="elem" data-length="5">
+    <p id='res'></p> -->
+
+    <!-- Дан инпут:
+
+    <input id="elem" data-min="5" data-max="10">
+    В этом инпуте атрибуты data-min и data-max содержат диапазон. Сделайте так, чтобы по потери фокуса, если количество введенных символов не попадает в этот диапазон, выводилось сообщение об этом. VAZHNO -->
+
+    <!-- <input id="elem" data-min="5" data-max="10">
+    <p id='res'></p> -->
+
+
+    <!-- Пользовательские атрибуты с дефисами в JavaScript -->
+
+    <!-- Дан следующий код:
+
+<div id="elem" data-product-price="1000" data-product-amount="5">
+	товар яблоки
+</div>
+Сделайте так, чтобы по клику на див в конец его текста добавлялась стоимость покупки, равная цене, умноженной на количество. -->
+
+    <!-- <div id="elem" data-product-price="1000" data-product-amount="5">
+        товар яблоки
+    </div> -->
+
+
+    <!-- Обращение через методы к data атрибутам -->
+
+    <!-- Даны абзацы. Переберите их циклом и каждому абзацу в атрибут data-num запишите порядковый номер этого абзаца. Используйте метод setAttribute. -->
+
+    <!-- <p>1</p>
+    <p id='der'>2</p>
+    <p id='ert'>3</p> -->
+
+
+    <!-- Основы работы с объектом Event -->
+
+    <!-- Самостоятельно проделайте описанные манипуляции и выведите объект с событием в консоль. Изучите структуру этого объекта. -->
+
+    <!-- <input type="submit" value="Click" class="button"> -->
+
+
+    <!-- Координаты события -->
+    <!-- event.clientY, event.pageX, event.pageY. -->
+
+    <!-- Сделайте так, чтобы при движении мышки по странице, отображались координаты курсора, подобно тому, как это сделано в следующем образце: -->
+
+    <!-- <div id="elem" style="width: 1000px; height: 500px;">0 : 0</div> -->
+
+
+    <!-- Тип события в объекте Event -->
+
+    <!-- В следующем коде в двум событиям привязан один и тот же обработчик:
+
+    <button id="elem">text</button>
+    let elem = document.querySelector('#elem');
+    
+    elem.addEventListener('click', func);
+    elem.addEventListener('dblclick', func);
+    
+    function func() {
+        
+    }
+    Допишите код функции func так, чтобы при клике на элемент этот элемент красился в зеленый цвет, а при двойном клике - в красный. -->
+
+    <!-- <button id="elem" style="width: 100px; height: 50px;">text</button> -->
+
+
+    <!-- Элемент события в объекте Event -->
+
+    <!-- Пусть у вас есть список ul с тегами li:
+
+    ul {
+        padding: 30px;
+        border: 1px solid red;
+    }
+    li {
+        list-style-type: none;
+        margin-bottom: 20px;
+        border: 1px dashed black;
+    }
+    <ul id="elem">
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+    </ul> -->
+
+
+    <!-- Привяжите к тегу ul обработчик клика. В этом обработчике проверяйте с помощью свойства tagName, по какому тегу был клик. Если клик был по тегу li - добавьте в конец текста этого тега восклицательный знак. А если клик был по тегу ul - добавьте ему в конец еще один пункт списка. -->
+
+    <!-- <ul id="elem">
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+    </ul> -->
+
+
+    <!-- Получение нажатых клавиш -->
+
+    <!-- Дан абзац и инпут. В него вводится текст и нажимается клавиша Enter. Сделайте так, чтобы по нажатию Enter введенный текст попадал в абзац под инпутом, а содержимое инпута очищалось. -->
+
+    <!-- <input type="text" name="" id="" class="elem">
+    <p class="text"></p> -->
+
+
+    <!-- Отслеживание клавиш-модификаторов. Ctrl, SHift, Alt -->
+
+    <!-- Дан элемент. Сделайте так, чтобы по клику на него он красился в красный цвет, но только если в момент клика нажата клавиша Alt. -->
+
+    <!-- <div class="elem" style="width: 100px; height: 100px; background-color: aqua;"></div> -->
+
+    <!-- Пусть у вас есть список ul с тегами li:
+
+<ul id="elem">
+	<li>text</li>
+	<li>text</li>
+	<li>text</li>
+	<li>text</li>
+	<li>text</li>
+</ul>
+Сделайте так, чтобы по клику на любую li, в конец ее текста добавлялось число 1, если нажата клавиша Ctrl, и число 2, если нажата клавиша Shift. -->
+
+    <!-- <ul id="elem">
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+    </ul> -->
+
+
+    <!-- Отмена действия по умолчанию -->
+
+    <!-- Даны ссылки. Сделайте так, чтобы по клику на ссылку ей в конец записывался ее href, а перехода по ссылке не происходило. -->
+
+    <!-- <a id='link' href="http://nothing">This is link</a><br>
+    <a id='link' href="http://nothing1">This is link</a><br>
+    <a id='link' href="http://nothing2">This is link</a> -->
+
+    <!-- Даны два инпута, абзац и ссылка. Пусть в инпуты вводятся числа. Сделайте так, чтобы по клику на ссылку в абзац записалась сумма введенных чисел. -->
+
+    <!-- <input type="text" name="" id="" class="elem1">
+    <input type="text" name="" id="" class="elem2">
+    <p class='text'></p>
+    <a class='link' href="http://">Click</a> -->
+
+
+    <!-- Основы работы с контекстом. Потеря контекста -->
+
+    <!-- <input id="elem" value="text"> -->
+
+
+    <!-- Решение проблемы с контекстом. Через переменные -->
+
+    <!-- Пусть дан такой код:
+
+<input id="elem" value="3">
+"use strict";
+
+let elem = document.querySelector('#elem');
+elem.addEventListener('blur', func);
+
+function func() {
+	alert( square() );
+	
+	function square() {
+		return this.value * this.value;
+	}
+}
+Автор кода хотел, чтобы по потери фокуса на экран вывелся квадрат числа из value инпута. Однако, почему-то при потери фокуса в консоль выдается ошибка.
+
+Исправьте ошибку автора кода. Напишите текст, в котором вы дадите объяснение автору кода, почему возникла его ошибка. -->
+
+
+    <!-- <input id="elem" value="3"> -->
+
+
+    <!-- Второе решение проблемы. Использование параметра -->
+
+    <!-- Возьмите код из предыдущей задачи и исправьте проблему кода с помощью изученного второго способа. -->
+
+    <!-- <input id="elem" value="3"> -->
+
+
+    <!-- Третье решение проблемы. Стрелочные функции -->
+
+    <!-- Возьмите код из предыдущей задачи и исправьте проблему кода с помощью изученного третьего способа. -->
+
+    <!-- <input id="elem" value="3"> -->
+
+
+    <!-- Привязывание контекста через метод call -->
+
+    <!-- Дана функция:
+
+    function func() {
+        console.log(this.value);
+    }
+    Даны три инпута:
+    
+    <input id="elem1" value="text1">
+    <input id="elem2" value="text2">
+    <input id="elem2" value="text3">
+    С помощью метода call и функции func выведите на экран value каждого из инпутов. -->
+
+    <!-- <input id="elem1" value="text1">
+    <input id="elem2" value="text2">
+    <input id="elem3" value="text3"> -->
+
+    <!-- Метод call с параметрами -->
+
+    <!-- Пусть дан следующий код:
+
+<input id="elem" value="привет">
+let elem = document.querySelector('#elem');
+
+function func(surname, name) {
+	console.log(this.value + ', ' + surname + ' ' + name);
+}
+
+func(); // тут должно вывести 'привет, Иванов Иван'
+Добавьте в последнюю строчку метод call так, чтобы на экран вывелось 'привет, Иванов Иван'. Слово 'привет' должно взяться из value инпута, а 'Иванов' и 'Иван' должны быть параметрами функциями. -->
+
+    <!-- <input id="elem" value="привет"> -->
+
+
+    <!-- Привязывание контекста через метод apply -->
+
+
+    <!-- Пусть дан следующий код:
+
+<input id="elem" value="привет">
+let elem = document.querySelector('#elem');
+
+function func(surname, name) {
+	console.log(this.value + ', ' + surname + ' ' + name);
+}
+
+func(); // тут должно вывести 'привет, Иванов Иван'
+Добавьте в последнюю строчку метод apply так, чтобы на экран вывелось 'привет, Иванов Иван'. Слово 'привет' должно взяться из value инпута, а 'Иванов' и 'Иван' должны быть параметрами функциями. -->
+
+    <!-- <input id="elem" value="привет"> -->
+
+
+    <!-- Привязывание контекста через метод bind -->
+
+
+    <!-- Пусть дан следующий код:
+
+<input id="elem" value="привет">
+let elem = document.getElementById('elem');
+
+function func(surname, name) {
+	console.log(this.value + ', ' + surname + ' ' + name);
+}
+
+// Тут напишите конструкцию с bind()
+
+func('Иванов', 'Иван'); // тут должно вывести 'привет, Иванов Иван'
+func('Петров', 'Петр'); // тут должно вывести 'привет, Петров Петр'
+Напишите в указанном месте конструкцию с методом bind так, чтобы this внутри функции func всегда указывал на инпут из переменной elem. -->
+
+    <!-- <input id="elem" value="привет"> -->
+
+
+    <!-- Основы работы с функцией setInterval -->
+
+    <!-- Запустите таймер, который каждые 3 секунды будет что-нибудь выводить в консоль. -->
+
+    <!-- Счетчик через функцию setInterval -->
+
+    <!-- Пусть дана переменная, в которой изначально хранится число 100. Запустите таймер, который каждую секунду будет уменьшать значение этой переменной на 1 и выводить это значение в консоль. -->
+
+
+    <!-- Остановка таймера -->
+
+    <!-- Пусть дана переменная, в которой изначально хранится число 10. Запустите таймер, который каждую секунду будет уменьшать значение этой переменной на 1 и выводить это значение в консоль. Как только значение переменной достигнет нуля - остановите таймер. -->
+
+
+    <!-- Кнопка для запуска таймера -->
+
+    <!-- Сделайте кнопку, по нажатию на которую в консоль будет выводится обратный отсчет, начиная с 100. -->
+
+    <!-- <button class='button'>Click</button> -->
+
+    <!-- Многократное нажатие на кнопку -->
+
+    <!-- Возьмите ваше решение предыдущей задачи. Проверьте, что многократное нажатие на кнопку приводит к ускорению отсчета. Исправьте эту проблему. -->
+
+    <!-- <button class='button'>Click</button> -->
+
+
+    <!-- Кнопки для запуска и остановки таймера -->
+
+    <!-- Пусть дана переменная, в которой изначально хранится число 100. Даны также две кнопки. По нажатию на первую кнопку запустите таймер, который каждую секунду будет уменьшать значение переменной на 1 и выводить новое значение в консоль. Как только значение переменной достигнет нуля - остановите таймер. -->
+    <!-- По нажатию на вторую кнопку остановите таймер. Также остановите таймер, если вторая кнопка не была нажата, но значение переменной достигло нуля. -->
+
+    <!-- <button class="start">Start</button>
+    <button class="finish">Stop</button> -->
+
+    <!-- Приведенный мною в теоретической части код не учитывает то, что на кнопку старт можно сделать несколько нажатий. Для исправления этой проблемы можно по нажатию на кнопку старт отвязывать событие от этой кнопки, а по нажатию на кнопку стоп - привязывать обратно. Исправьте проблему. -->
+
+    <!-- <button class="start">Start</button>
+    <button class="finish">Stop</button> -->
+
+    <!-- по нажатию на кнопку запускает таймер, выводящий в консоль текущий момент времени -->
+    <!-- <input type="submit" id="start" value="start">
+    <input type="submit" id="stop" value="stop"> -->
+
+
+    <!-- Практика на таймеры и работу с DOM -->
+
+    <!-- Пусть в инпуте в атрибуте value изначально записано число 10. Запустите таймер, который каждую секунду будет уменьшать это число на единицу. -->
+
+    <!-- <input id='elem' type="text" value='10'> -->
+
+    <!-- Модифицируйте предыдущую задачу так, чтобы, как только содержимое инпута станет равно нулю, таймер прекратил свою работу. -->
+
+    <!-- <input id='elem' type="text" value='10'> -->
+
+
+    <!-- Таймеры и потеря контекста -->
+
+
+    <!-- Пусть дан такой код:
+
+<input type="button" id="elem" value="1">
+let elem = document.querySelector('#elem');
+
+elem.addEventListener('click', function() {
+	setInterval(function() {
+		this.value = Number(elem.value) + 1;
+	}, 1000);
+});
+Автор кода хотел, чтобы по нажатию на кнопку, значение этой кнопки каждую секунду увеличивалось на 1. Однако, по нажатию на кнопку вообще ничего не происходит. -->
+
+    <!-- <input type="button" id="elem" value="1"> -->
+
+    <!-- Другие способы решить проблему -->
+
+    <!-- Исправьте проблему предыдущей задачи через стрелочную функцию -->
+
+    <!-- <input type="button" id="elem" value="1"> -->
+
+    <!-- Решение проблемы через замыкание -->
+
+    <!-- <input type="button" id="elem" value="1"> -->
+
+
+    <!-- Передача контекста параметром функции setInterval -->
+
+    <!-- Пусть дан такой код:
+
+<input type="button" id="elem" value="10">
+let elem = document.querySelector('#elem');
+
+elem.addEventListener('click', function() {
+	setInterval(function() {
+		this.value--;
+	}, 1000);
+});
+Автор кода хотел, чтобы по нажатию на кнопку, значение этой кнопки каждую секунду уменьшалось на 1. Однако, по нажатию на кнопку вообще ничего не происходит.
+
+Исправьте ошибку автора кода, используя изученный в данном уроке способ. -->
+
+    <!-- <input type="button" id="elem" value="10"> -->
+
+    <script src="js_file.js">
+    </script>
+</body>
+
+</html>
